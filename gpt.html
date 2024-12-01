@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  border: 2px dashed #2878d8;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-left {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7faff;
+  border-right: 2px solid #2878d8;
+  flex: 1;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.title {
+  color: #666;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a img {
+  width: 24px;
+  height: 24px;
+  margin: 0 5px;
+}
+
+.card-right {
+  padding: 20px;
+  flex: 2;
+}
+
+.card-right h3 {
+  color: #2878d8;
+  margin: 15px 0 5px;
+}
+
+.card-right p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.card-right ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+}
+
+.card-right ul li {
+  margin-bottom: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="card-left">
+      <img src="profile.jpg" alt="Mr. Fahad" class="profile-image">
+      <h2>Mr. Fahad</h2>
+      <p class="title">Affiliate Marketing Expert</p>
+      <div class="social-links">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+    <div class="card-right">
+      <h3>Expertise:</h3>
+      <p>Affiliate Marketing, SEO, Google Ads</p>
+      <h3>Experience Level:</h3>
+      <p>7+ Years</p>
+      <h3>Why Learn From Mr Fahad:</h3>
+      <ul>
+        <li>Sold more than 1000 digital assets on flippa.com</li>
+        <li>Done SEO (Search engine optimization) for more than 500 sites.</li>
+        <li>Created and scaled dropshipping stores from scratch to profitable businesses.</li>
+        <li>Created and implemented funnels for one of the biggest coaching firms in Pakistan.</li>
+        <li>Media Buying (Google Ads, Facebook Ads).</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
